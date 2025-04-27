@@ -217,6 +217,7 @@ a > span{
 #endereco{
     background-color: var(--cor3);
     border-radius: 12px 12px 0px 0px;
+    height: 170px;
 }
 
 footer > h2{
@@ -230,5 +231,5 @@ footer > p{
     color: rgba(255, 255, 255, 0.589);
     padding-left: 5px;
     padding-bottom: 5px;
-    
+    margin-bottom: 10px;
 }
