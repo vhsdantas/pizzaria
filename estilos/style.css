@@ -23,10 +23,12 @@ body{
 
 #home{
     background-color: var(--cor3);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.541);
     z-index: 1;
 }
 
-h1#home{
+h1#home1{
+    text-align: center;
     color: white;
     padding-left: 10px;
     padding-top: 6px;
@@ -34,6 +36,7 @@ h1#home{
 }
 
 h3.home{
+    text-align: center;
     color: white;
     padding-left: 10px;
     padding-top: 6px;
@@ -64,6 +67,7 @@ a.link-cabecalho{
 
 #section-1{
     background-color: var(--cor3);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.541);
     color: white;
     margin: auto;
     text-align: center;
@@ -84,6 +88,7 @@ a.link-cabecalho{
 
 #section-grid{
     background-color: var(--cor3);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.541);
     margin: auto;
     width: 80%;
     max-width: 100%;
@@ -116,6 +121,7 @@ a.link-cabecalho{
     align-items: center;
     margin-bottom: 10px;
     border-radius: 12px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.541);
 }
 
 .h2-cardapio{
@@ -195,7 +201,7 @@ a.link-cabecalho{
     height: 60px;
     bottom: 40px;
     right: 25px;
-    background-color: green;
+    background-color: rgba(2, 172, 2, 0.795);
     border-radius: 50%;
     text-align: center;
     font-size: 30px;
@@ -203,8 +209,8 @@ a.link-cabecalho{
     box-shadow: 1px 2px 5px rgb(1, 56, 1);
 }
 
-.fa-whatsapp{
-    margin-top: 15px;
+a > span{
+    margin-top: 20px;
     color: white;
 }
 
