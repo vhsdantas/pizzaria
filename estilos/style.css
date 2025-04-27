@@ -1,0 +1,228 @@
+:root{
+    --cor0: #F29D35;
+    --cor1: #d98236b7;
+    --cor2: #8C4B26;
+    --cor3: #D9430D;
+    --cor4: #591E18;
+}
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+#home{
+    background-color: var(--cor3);
+    z-index: 1;
+}
+
+h1#home{
+    color: white;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+h3.home{
+    color: white;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.link-cabecalho{
+    font-weight: bold;
+}
+
+.link-cabecalho:hover{
+    color: var(--cor4);
+    transition: all ease-in-out 5ms;
+    text-decoration: underline;
+}
+
+#menu{
+    text-align: right;
+    word-spacing: 1px;
+}
+
+a.link-cabecalho{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+#section-1{
+    background-color: var(--cor3);
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 90vw;
+    height: 160px;
+    border-radius: 12px;
+}
+
+.h2-section1{
+    font-size: 25px;
+    padding-top: 27px;
+}
+
+.p1{
+    font-size: 22px;
+    padding-top: 13px;
+}
+
+#section-grid{
+    background-color: var(--cor3);
+    margin: auto;
+    width: 80%;
+    max-width: 100%;
+    padding: 10px;
+    height: 100%;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 5px;
+    justify-items: center;
+}
+
+.sub-grid{
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.h2-cardapio{
+    font-size: 25pt;
+    color: white;
+}
+
+.h2-sub-grid{
+    font-size: 14pt;
+    padding-bottom: 8px;
+}
+
+.img-pizza{
+    max-width: 90%;
+}
+
+#pizza-vegana{
+    height: 110px;
+}
+
+#pizza-brocolis{
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+#pizza-seco{
+    width: 70%;
+    height: 68px;
+    padding-bottom: 20px;
+}
+
+#pizza-queijo{
+    height: 110px
+}
+
+#pizza-portuguesa{
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.p-precos{
+    font-size: 14pt;
+}
+
+#link-whatsapp{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 70%;
+    padding: 0;
+    line-height: normal;
+}
+
+#link-whatsapp:hover{
+    cursor: pointer;
+}
+
+.botao-acao{
+    background-color: var(--cor1);
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 3px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao-whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 25px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+    box-shadow: 1px 2px 5px rgb(1, 56, 1);
+}
+
+.fa-whatsapp{
+    margin-top: 15px;
+    color: white;
+}
+
+#endereco{
+    background-color: var(--cor3);
+    border-radius: 12px 12px 0px 0px;
+}
+
+footer > h2{
+    color: rgba(255, 255, 255, 0.747);
+    font-style: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer > p{
+    color: rgba(255, 255, 255, 0.589);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    
+}
